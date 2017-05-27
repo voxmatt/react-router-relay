@@ -1,7 +1,7 @@
 {
-  "name": "react-router-relay",
+  "name": "react-router-relay-classic",
   "version": "0.13.7",
-  "description": "Relay integration for React Router",
+  "description": "Relay/Classic integration for React Router",
   "files": [
     "es",
     "lib"
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/relay-tools/react-router-relay.git"
+    "url": "git+https://github.com/voxmatt/react-router-relay-classic.git"
   },
   "keywords": [
     "relay",
@@ -31,9 +31,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/relay-tools/react-router-relay/issues"
+    "url": "https://github.com/voxmatt/react-router-relay-classic/issues"
   },
-  "homepage": "https://github.com/relay-tools/react-router-relay#readme",
+  "homepage": "https://github.com/voxmatt/react-router-relay-classic#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "invariant": "^2.2.2",
@@ -42,8 +42,8 @@
     "react-static-container": "^1.0.1"
   },
   "peerDependencies": {
-    "react": ">=0.14.0",
-    "react-relay": ">=0.6.0",
+    "react": ">=0.15.5",
+    "react-relay": ">=1.0.0",
     "react-router": ">=2.3.0"
   },
   "devDependencies": {
